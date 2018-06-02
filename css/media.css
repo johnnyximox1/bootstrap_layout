@@ -1,0 +1,71 @@
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .header_common {
+    background-color: #CCE0FB;
+    margin-top: 10px;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+    .hero_common {
+    background-color: #CCE0FB;
+    margin-top: 15px;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+    .article_feature {min-height: 50px;}  .add {min-height: 60px;}
+    .article_listing {min-height: 100px;}
+.bodysidebar_height {
+    min-height: 290px;
+}
+
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .article_feature {min-height: 175px;}
+  .add{
+      min-height:175px;
+    margin-top: 25px;}
+    .padding_disable {
+    padding-right: 0px;
+    padding-left: 0px;}
+    .article_listing {min-height:  250px}
+    .article_common2 {
+    background-color: #CCE0FB;
+    min-height: 85px;
+    margin: 15px;
+}
+    .sidebar {min-height: 125px;
+    overflow: hidden;
+    margin-top: 15px;}
+    .hero_common {
+    background-color: #CCE0FB;
+    margin-top: 15px;
+    min-height: 50px;
+    margin-bottom: 15px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .article_feature {
+  min-height: 150px;}
+  .add {    min-height: 150px;
+    margin-top: 25px;}
+  .article_listing {min-height:  250px}
+  .sidebar {}
+  .sidebar_feature {  }
+  .padding_disable {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
